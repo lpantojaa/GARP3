@@ -1,0 +1,42 @@
+{
+  "id": "da2caac8-eb0d-4eca-9629-d97d077fa2f1",
+  "timestamp": "2017-12-02T19:00:03.79Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "What is the population of Brazil in 2001 for the age group of 20 years",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "age": "20",
+      "geo-country": "Brazil",
+      "year": "2001"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "14c5107e-3e47-452a-9727-156ac1ab87d7",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 252,
+      "intentName": "Population in Age Group Intent"
+    },
+    "fulfillment": {
+      "speech": "In 2001, the Population Statistics shows a total of 1801585 males and 1768310 females in Brazil in the age group of 20 years",
+      "source": "Population.io API",
+      "displayText": "Total males: 1801585, Total females: 1768310",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In 2001, the Population Statistics shows a total of 1801585 males and 1768310 females in Brazil in the age group of 20 years"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "ee5feea6-dee4-4e1c-87e3-f7b3838235d7"
+}
